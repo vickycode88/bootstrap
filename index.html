@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="media.css">
+
+
+
+    <title>Vinter!o Website</title>
+</head>
+
+<body>
+    <div class="stick">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand logo" href="#">Vinter!o</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#call">Contact</a>
+                    </li>
+
+                       <li class="nav-item">
+                        <a class="nav-link" href="/Gallery.html">Gallery</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li> -->
+                </ul>
+                <nav class="navbar navbar-dark bg-dark search_space">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 mx-1" type="submit">Search</button>
+                    </form>
+                </nav>
+            </div>
+
+            <!-- <nav class="navbar navbar-dark bg-dark">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0 mx-2" type="submit">Search</button>
+  </form>
+</nav> -->
+        </nav>
+    </div>
+    <div class="banner">
+        <!-- <div class="navbar">
+            <span class="logo">!Vinterio</span>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/about.html">about</a></li>
+                <li><a href="#">dining</a></li>
+                <li><a href="#">kitchen</a></li>
+                <li><a href="#">design</a></li>
+            </ul>
+        </div> -->
+        <div class="content">
+            <h1>
+                DESIGN YOUR HOUSE
+            </h1>
+            <P>creating a feeling of warmth, security, and belonging, highlighting the unique aspects of the home, and
+                emphasizing <br>the joy and memories created within its walls</P>
+            <div>
+                <button class="newbut" type="button" data-toggle="modal" data-target="#signupModal"><span
+                        class="new_span"></span> SIGN UP</button>
+                <button class="newbut" type="button" data-toggle="modal" data-target="#signinModal"><span
+                        class="new_span"></span>SIGN IN</button>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- signup Modal -->
+        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signupModalLabel">SignUp To Vinterio</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Name</label>
+                                <input type="text" class="form-control" id="exampleInputText1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary mx-2">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+
+        <!-- signin Modal -->
+        <div class="modal fade" id="signinModal" tabindex="-1" aria-labelledby="signinModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signinModalLabel">SignIn To Vinterio</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Signin</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary mx-2">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="HeadingSection">
+        <div class="container">
+
+
+
+            <h1>Interior Designers in Mumbai - !Vinterio <br> </h1>
+
+
+            <div class="infoBx ">
+                <p><span style="font-weight:400;word-break: break-all;">Vinter!o Mumbai brings your dream home to life
+                        with unparalleled
+                        interior design services. Our experienced interior designers in Mumbai transform ordinary
+                        spaces into extraordinary living environments personalized for you. We blend aesthetics,
+                        comfort and functionality into one-of-a-kind designs. At !Vinterio Mumbai, we !Vinterio just
+                        create
+                        homes, we create lifestyles. With nearly two decades of experience, !Vinterio Mumbai has
+                        established a reputation for superior quality and workmanship. We use only the finest
+                        materials and construction methods to ensure durability and longevity. Our interior
+                        designers in Mumbai have an eye for detail and perfection, overseeing every aspect of the
+                        project. We take pride in delivering interiors that stand the test of time. Our numerous
+                        satisfied customers are a testament to our commitment to excellence. When you choose !Vinterio,
+                        you choose peace of mind knowing you are getting the very best.</span></p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="bcolor ">
+
+        <h3 class="statement">Premium Package Offers For Interior Design in India!!</h3>
+
+
+
+        <div class="card-deck mx-5 card1">
+            <div class="card">
+                <img src="interior-design-living-room.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">    &#8377; 100000</h5>
+                    <p class="card-text">A premium living room design emphasizes sophisticated aesthetics and functionality through high-quality materials.</p>
+                    <button type="button" class="btn btn-outline-primary">BOOK</button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="premium_image.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">&#8377; 50000</h5>
+                    <p class="card-text">A "hall premium design" typically emphasizes spaciousness creating a luxurious and comfortable environment suitable for events.</p>
+                    <button type="button" class="btn btn-outline-primary">BOOK</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gimage7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">&#8377; 150000</h5>
+                    <p class="card-text">Strategic lighting, including pendant lights, chandeliers, or recessed lighting, enhances the ambiance and highlights architectural features or decorative elements.</p>
+                    <button type="button" class="btn btn-outline-primary">BOOK</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  backcolor">
+        <div class="row featurette d-flex align-items-center justify-content-center mx-4 ">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Wall Interior Design. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Wall interior design refers to the aesthetic treatment of indoor walls to enhance a space's visual appeal, functionality, and atmosphere, encompassing options like painting, wallpaper, textured finishes, and decorative elements.</p>
+            </div>
+            <div class="col-md-5 ">
+                <img src="living_room_interior_decor.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto image_space"
+                    width="500" height="500">
+
+            </div>
+        </div>
+
+        <div class="row featurette d-flex align-items-center justify-content-center featurespace">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Bedroom interior Design. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">A well-designed bedroom interior should be a harmonious blend of comfort, functionality, and personal style.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="Interior-design-09.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500"
+                    height="597">
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="row featurette d-flex align-items-center justify-content-center mx-4">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Living Room Interior. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">A living room design focuses on creating a functional, comfortable, and aesthetically pleasing space for relaxation and social interaction within a home.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="home34.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500"
+                    height="597">
+            </div>
+
+        </div>
+
+        <div class="container-fluid aa" id="call">
+            <div class="left-panel">
+                <img src="living_room_interior_decor.jpg" alt="Interior Design" />
+            </div>
+            <div class="right-panel">
+                <h2>Designs for Every Budget</h2>
+                <p>Get your dream home today. Let our experts help you</p>
+                <form>
+                    <input type="text" placeholder="Name" required />
+                    <input type="email" placeholder="Email" required />
+                    <div class="phone-group">
+                        <span class="flag">🇮🇳</span>
+                        <input type="tel" placeholder="Phone Number" required />
+                    </div>
+                    <label class="checkbox">
+                        <input type="checkbox" checked />
+                        <span>Send me updates on WhatsApp</span>
+                    </label>
+                    <input type="text" placeholder="Property Name" required />
+                    <button type="submit">GET FREE QUOTE</button>
+                    <p class="footer-text">
+                        By submitting this form, you agree to the
+                        <a href="#">privacy policy</a> &
+                        <a href="#">terms and conditions</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+
+<footer class="container-fluid py-5 fcolor">
+  <div class="row">
+    <div class="col-12 col-md mx-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      <small class="d-block mb-3 text-muted">© 2025-2026</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5 style="color: white;">Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Cool stuff</a></li>
+        <li><a class="text-muted" href="#">Random feature</a></li>
+        <li><a class="text-muted" href="#">Team feature</a></li>
+        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+        <li><a class="text-muted" href="#">Another one</a></li>
+        <li><a class="text-muted" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5 style="color:white">Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Resource</a></li>
+        <li><a class="text-muted" href="#">Resource name</a></li>
+        <li><a class="text-muted" href="#">Another resource</a></li>
+        <li><a class="text-muted" href="#">Final resource</a></li>
+      </ul>
+    </div>
+    <!-- <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Business</a></li>
+        <li><a class="text-muted" href="#">Education</a></li>
+        <li><a class="text-muted" href="#">Government</a></li>
+        <li><a class="text-muted" href="#">Gaming</a></li>
+      </ul>
+    </div> -->
+    <div class="col-6 col-md">
+      <h5 style="color: white;">About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Team</a></li>
+        <li><a class="text-muted" href="#">Locations</a></li>
+        <li><a class="text-muted" href="#">Privacy</a></li>
+        <li><a class="text-muted" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+  <p align="center" style="color:white">developed by Vicky Das &copy; copyright</p>
+</footer>
+
+
+    </div>
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
